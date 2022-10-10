@@ -1,0 +1,41 @@
+*{
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    background-color: blue;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.logo-texto{
+    margin-left: 20px;
+    color: gold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.menu li{
+    display: inline-block;
+    margin: 0 10px
+    
+}
+
+.menu li a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 36px;
+    text-decoration: turquoise;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.menu li a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
